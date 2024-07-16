@@ -1,0 +1,8 @@
+spring:
+  application:
+    name: gpt
+
+openai:
+  api-key: ${OPENAI_API_KEY}
+  api-url: ${OPENAI_API_URL}
+
