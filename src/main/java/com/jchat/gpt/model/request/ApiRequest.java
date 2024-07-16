@@ -27,7 +27,7 @@ public class ApiRequest {
         body.put("model", "text-davinci-003");
         body.put("prompt", prompt);
         body.put("max_tokens", 30000);
-        body.put("temperature", 0.5);
+        body.put("temperature", 0.2);
     }
 
 
